@@ -11,12 +11,16 @@ body {
     min-height: 100vh;
     background-color: #bdc1c5; 
   
-  .card-body {
-    margin: 0 auto;
-    border-radius: 4px; /* Add border radius to the card */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow to the card */
-  }
-  
+.card-body {
+  margin: 0 auto;
+  border-radius: 4px; /* Add border radius to the card */
+  box-shadow: 0 0 50px rgba(155, 147, 147, 0.76); /* Add box shadow to the card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
   
   button.btn {
